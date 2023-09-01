@@ -1,0 +1,46 @@
+// Number of scheduling periods
+4 
+
+// Number of blocks in the block model file
+413
+
+// Number of precedence arcs in the precedence matrix (precedence.txt)
+1380
+
+// Number of units, grade unit indicator 
+// 1 = grade in percent; 2 = grams or troy ounces or pounds per tonne
+1
+
+// Number of Processing Facilities
+2
+
+// Metal price, refining cost, mining cost, discount rate
+4500.00 900.00 1.50 0.80
+
+// Mining capacity lower and upper limits
+0 40250
+
+// Processing Cost for each Facility
+8.00 12.00
+
+// Processing Lower Capacity for each Facility
+0 0
+
+// Processing Upper Capacity for each Facility
+20000 15000
+
+// Add the number of stockpiles and their related parameters here
+// Number of Stockpiles
+2
+
+// Stockpile Capacities for each bin
+5000 5000
+
+// Stockpile Recovery Rates for each bin and facility, in the form of array or matrix structure as follow
+//value1_1 value1_2 ... value1_F
+//value2_1 value2_2 ... value2_F
+//...
+//valueX_1 valueX_2 ... valueX_F
+0.90 0.70
+0.60 0.95
+

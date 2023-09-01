@@ -1,0 +1,2 @@
+Number of Blocks: 413
+Number of precedence arcs: 1380
